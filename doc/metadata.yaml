@@ -5,8 +5,17 @@ github_branches:
 github_repo: GH4PIN01
 github_url: https://github.com/mlab-modules/GH4PIN01
 homepage: false
-images: []
+image: doc/gen/img/GH4PIN01-bottom.png
+images:
+- doc/gen/img/GH4PIN01-bottom.png
+- doc/gen/img/GH4PIN01-top.png
+- hw/cam_profi/docs/GH4PIN01A-assembly_page_02.svg
+- hw/cam_profi/docs/GH4PIN01A-assembly_page_01.svg
+- doc/gen/GH4PIN01-schematic.svg
+- doc/gen/img/GH4PIN01-top.svg
 issues: 0
 mark: 50
+mod_ibom: hw/cam_profi/ibom/GH4PIN01-ibom.html
+mod_scheme: doc/gen/GH4PIN01-schematic.pdf
 tags: []
 title: GH4PIN01
