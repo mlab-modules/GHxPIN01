@@ -12,6 +12,7 @@ images:
 - hw/cam_profi/docs/GH4PIN01A-assembly_page_02.svg
 - hw/cam_profi/docs/GH4PIN01A-assembly_page_01.svg
 - doc/gen/GH4PIN01-schematic.svg
+- doc/gen/img/GH4PIN01-bottom.svg
 - doc/gen/img/GH4PIN01-top.svg
 issues: 0
 mark: 50
