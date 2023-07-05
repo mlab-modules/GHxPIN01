@@ -35,8 +35,8 @@ Drill: 1.0 mm (39 mils)
 Via: N/A/N/A mm (N/A/N/A mils)
 
 - By design rules: 0.4/0.3 mm (16/12 mils)
-- Micro via: no [0.2/0.1 mm (8/4 mils)]
-- Buried/blind via: no
+- Micro via: yes [0.2/0.1 mm (8/4 mils)]
+- Buried/blind via: yes
 - Total: 0 (thru: 0 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.26 mm (10 mils)
@@ -51,8 +51,8 @@ Eurocircuits class: 4A
 
 Components count: (SMD/THT)
 
-- Top: 2/5 (SMD + THT)
-- Bottom: 0/0 (NONE)
+- Top: 0/5 (THT)
+- Bottom: 2/0 (SMD)
 
 Defined tracks:
 
