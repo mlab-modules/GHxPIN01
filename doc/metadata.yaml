@@ -7,11 +7,11 @@ github_url: https://github.com/mlab-modules/GH4PIN01
 homepage: false
 image: doc/gen/img/GH4PIN01-bottom.png
 images:
-- doc/gen/img/GH4PIN01-bottom.png
 - doc/gen/img/GH4PIN01-top.png
+- doc/gen/img/GH4PIN01-bottom.png
 - doc/gen/GH4PIN01-schematic.svg
-- doc/gen/img/GH4PIN01-bottom.svg
 - doc/gen/img/GH4PIN01-top.svg
+- doc/gen/img/GH4PIN01-bottom.svg
 - hw/cam_profi/docs/GH4PIN01A-assembly_page_01.svg
 - hw/cam_profi/docs/GH4PIN01A-assembly_page_02.svg
 issues: 0
