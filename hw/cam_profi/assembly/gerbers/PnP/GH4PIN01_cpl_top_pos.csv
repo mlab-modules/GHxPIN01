@@ -1,0 +1,6 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"J3","HEADER_2x05_PARALLEL","Straight_2x05",0.2540,15.2400,0.0000,top
+"M1","HOLE M3","MountingHole_3mm",30.4800,30.4800,0.0000,top
+"M2","HOLE M3","MountingHole_3mm",0.0000,30.4800,0.0000,top
+"M3","HOLE","MountingHole_3mm",0.0000,0.0000,0.0000,top
+"M4","HOLE","MountingHole_3mm",30.4800,0.0000,0.0000,top

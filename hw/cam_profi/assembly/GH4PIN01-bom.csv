@@ -1,0 +1,3 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,"2x05 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x05_PARALLEL,J3,HEADER_2x05_PARALLEL,Straight_2x05,1,
+2,,SM04B-GHS-TB,J1J2,SM04B-GHS-TB,JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,2,
