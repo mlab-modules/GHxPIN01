@@ -12,11 +12,11 @@ images:
 - doc/gen/GH4PIN01-schematic.svg
 - doc/gen/img/GH4PIN01-bottom.svg
 - doc/gen/img/GH4PIN01-top.svg
-- hw/cam_profi/docs/GH4PIN01A-assembly_page_01.svg
-- hw/cam_profi/docs/GH4PIN01A-assembly_page_02.svg
+- hw/cam_profi/assembly/GH4PIN01-assembly_page_01.svg
+- hw/cam_profi/assembly/GH4PIN01-assembly_page_02.svg
 issues: 0
 mark: 50
-mod_ibom: hw/cam_profi/ibom/GH4PIN01-ibom.html
+mod_ibom: hw/cam_profi/GH4PIN01-ibom.html
 mod_scheme: doc/gen/GH4PIN01-schematic.pdf
 tags:
 - mlab
