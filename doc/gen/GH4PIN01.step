@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('KiCad electronic assembly'),'2;1');
-FILE_NAME('GH4PIN01.step','2023-07-10T01:49:30',('Pcbnew'),('Kicad'),
+FILE_NAME('GH4PIN01.step','2023-07-20T11:20:18',('Pcbnew'),('Kicad'),
   'Open CASCADE STEP processor 7.5','KiCad to STEP converter','Unknown'
   );
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
@@ -34907,7 +34907,7 @@ REPRESENTATION_CONTEXT('Context #1',
 #29989 = PRODUCT_DEFINITION_SHAPE('','',#29990);
 #29990 = PRODUCT_DEFINITION('design','',#29991,#29994);
 #29991 = PRODUCT_DEFINITION_FORMATION('','',#29992);
-#29992 = PRODUCT('tmpl4158adi PCB','tmpl4158adi PCB','',(#29993));
+#29992 = PRODUCT('tmp9vh9dro_ PCB','tmp9vh9dro_ PCB','',(#29993));
 #29993 = PRODUCT_CONTEXT('',#2,'mechanical');
 #29994 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #29995 = CONTEXT_DEPENDENT_SHAPE_REPRESENTATION(#29996,#29998);
