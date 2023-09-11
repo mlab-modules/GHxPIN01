@@ -148,7 +148,7 @@
 </g>
 </g> 
 </g><g id="substrate-silk" style="fill:#0b1013; stroke:#0b1013;" mask="url(#pads-mask-silkscreen)"><g style="fill-opacity: 0.0;stroke-width: 0.1500;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
-<text x="122.1740" y="106.4140" textLength="27.0036" font-size="2.0000" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">HEADER_2x05_PARALLEL</text>
+<text x="122.1740" y="106.4140" textLength="27.0786" font-size="2.0000" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">HEADER_2x05_PARALLEL</text>
 <g class="stroked-text"><desc>HEADER_2x05_PARALLEL</desc>
 <path d="M109.0669 106.3501 L109.0669 104.8501 "/>
 <path d="M109.0669 105.5644 L109.9240 105.5644 "/>

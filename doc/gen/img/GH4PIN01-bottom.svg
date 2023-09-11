@@ -229,7 +229,7 @@
 </g> 
 </g><g id="substrate-silk" style="fill:#0b1013; stroke:#0b1013;" mask="url(#pads-mask-silkscreen)"><g style="fill-opacity: 0.0;stroke-width: 0.1500;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
 <g transform="rotate(-90.000000 122.0840 104.1400)">
-<text x="122.0840" y="104.6400" transform="scale(-1 1) translate(-244.168000 0)" textLength="1.8893" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">J1</text>
+<text x="122.0840" y="104.6400" transform="scale(-1 1) translate(-244.168000 0)" textLength="1.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">J1</text>
 </g>
 <g class="stroked-text"><desc>J1</desc>
 <path d="M121.5388 103.8067 L122.2531 103.8067 "/>
@@ -243,7 +243,7 @@
 <path d="M121.6817 104.4257 L121.7769 104.3305 "/>
 <path d="M121.7769 104.3305 L121.8245 104.2352 "/>
 </g><g transform="rotate(-90.000000 122.0840 92.9640)">
-<text x="122.0840" y="93.4640" transform="scale(-1 1) translate(-244.168000 0)" textLength="1.8893" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">J2</text>
+<text x="122.0840" y="93.4640" transform="scale(-1 1) translate(-244.168000 0)" textLength="1.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">J2</text>
 </g>
 <g class="stroked-text"><desc>J2</desc>
 <path d="M121.5388 92.6307 L122.2531 92.6307 "/>
