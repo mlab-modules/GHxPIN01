@@ -10,10 +10,10 @@ images:
 - doc/gen/img/GH4PIN01-bottom.png
 - doc/gen/img/GH4PIN01-top.png
 - doc/gen/GH4PIN01-schematic.svg
-- doc/gen/img/GH4PIN01-top.svg
 - doc/gen/img/GH4PIN01-bottom.svg
-- hw/cam_profi/assembly/GH4PIN01-assembly_page_01.svg
+- doc/gen/img/GH4PIN01-top.svg
 - hw/cam_profi/assembly/GH4PIN01-assembly_page_02.svg
+- hw/cam_profi/assembly/GH4PIN01-assembly_page_01.svg
 issues: 0
 mark: 50
 mod_ibom: hw/cam_profi/GH4PIN01-ibom.html
@@ -27,4 +27,4 @@ tags:
 - mlab-kicad
 - pcb
 title: GH4PIN01
-updated: '2023-09-11T01:11:45.097645+00:00'
+updated: '2023-09-16T16:03:46.300554+00:00'
