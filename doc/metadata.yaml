@@ -2,6 +2,7 @@ description: PixHawk - MLAB interface
 github_branch: GH4PIN01A
 github_branches:
 - GH4PIN01A
+github_description: PixHawk - MLAB interface
 github_repo: GH4PIN01
 github_url: https://github.com/mlab-modules/GH4PIN01
 homepage: false
@@ -28,4 +29,4 @@ tags:
 - mlab-kicad
 - pcb
 title: GH4PIN01
-updated: '2023-09-16T21:30:21.800448+00:00'
+updated: '2023-09-17T11:34:48.967700+00:00'
