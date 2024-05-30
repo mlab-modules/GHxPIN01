@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/GH4PIN01.kicad_sch</source>
-    <date>Sun Sep 17 11:39:36 2023</date>
-    <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
+    <date>Thu May 30 17:15:41 2024</date>
+    <tool>Eeschema 7.0.11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>GH4PIN01</title>
@@ -11,7 +11,7 @@
         <rev>A</rev>
         <date>%d. %m. %Y</date>
         <source>GH4PIN01.kicad_sch</source>
-        <comment number="1" value="PixHawk - MLAB interface"/>
+        <comment number="1" value="PixHawk I2C - MLAB interface"/>
         <comment number="2" value="Alsa-Tucnak"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -52,6 +52,24 @@
       <property name="ki_keywords" value="2x05, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7cb9ee9f-7c35-4399-9b7f-6045b91dffcf</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>SM04B-GHS-TB</value>
+      <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
+      <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12ae4d07-f247-465a-bfa8-2bd831800596</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>SM04B-GHS-TB</value>
+      <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
+      <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf9149ce-e4c8-44e5-899c-19c6597f913f</tstamps>
     </comp>
     <comp ref="M1">
       <value>HOLE M3</value>
@@ -136,7 +154,31 @@
   </libparts>
   <libraries/>
   <nets>
-    <net code="1" name="GND">
+    <net code="1" name="/+5V">
+      <node ref="J1" pin="1" pintype="input"/>
+      <node ref="J2" pin="1" pintype="input"/>
+      <node ref="J3" pin="5" pintype="input"/>
+      <node ref="J3" pin="6" pintype="input"/>
+      <node ref="J4" pin="1" pintype="input"/>
+      <node ref="J5" pin="1" pintype="input"/>
+    </net>
+    <net code="2" name="/SCL">
+      <node ref="J1" pin="2" pintype="input"/>
+      <node ref="J2" pin="2" pintype="input"/>
+      <node ref="J3" pin="3" pintype="input"/>
+      <node ref="J3" pin="4" pintype="input"/>
+      <node ref="J4" pin="2" pintype="input"/>
+      <node ref="J5" pin="2" pintype="input"/>
+    </net>
+    <net code="3" name="/SDA">
+      <node ref="J1" pin="3" pintype="input"/>
+      <node ref="J2" pin="3" pintype="input"/>
+      <node ref="J3" pin="7" pintype="input"/>
+      <node ref="J3" pin="8" pintype="input"/>
+      <node ref="J4" pin="3" pintype="input"/>
+      <node ref="J5" pin="3" pintype="input"/>
+    </net>
+    <net code="4" name="GND">
       <node ref="J1" pin="4" pintype="input"/>
       <node ref="J1" pin="MP" pintype="input"/>
       <node ref="J2" pin="4" pintype="input"/>
@@ -145,28 +187,14 @@
       <node ref="J3" pin="10" pintype="input"/>
       <node ref="J3" pin="2" pintype="input"/>
       <node ref="J3" pin="9" pintype="input"/>
+      <node ref="J4" pin="4" pintype="input"/>
+      <node ref="J4" pin="MP" pintype="input"/>
+      <node ref="J5" pin="4" pintype="input"/>
+      <node ref="J5" pin="MP" pintype="input"/>
       <node ref="M1" pin="1" pintype="input"/>
       <node ref="M2" pin="1" pintype="input"/>
       <node ref="M3" pin="1" pintype="input"/>
       <node ref="M4" pin="1" pintype="input"/>
-    </net>
-    <net code="2" name="Net-(J1-Pad1)">
-      <node ref="J1" pin="1" pintype="input"/>
-      <node ref="J2" pin="1" pintype="input"/>
-      <node ref="J3" pin="5" pintype="input"/>
-      <node ref="J3" pin="6" pintype="input"/>
-    </net>
-    <net code="3" name="Net-(J1-Pad2)">
-      <node ref="J1" pin="2" pintype="input"/>
-      <node ref="J2" pin="2" pintype="input"/>
-      <node ref="J3" pin="3" pintype="input"/>
-      <node ref="J3" pin="4" pintype="input"/>
-    </net>
-    <net code="4" name="Net-(J1-Pad3)">
-      <node ref="J1" pin="3" pintype="input"/>
-      <node ref="J2" pin="3" pintype="input"/>
-      <node ref="J3" pin="7" pintype="input"/>
-      <node ref="J3" pin="8" pintype="input"/>
     </net>
   </nets>
 </export>

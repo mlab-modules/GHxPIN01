@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.7-7.0.7~ubuntu23.04.1"
+      "Version": "7.0.11+1"
     },
-    "CreationDate": "2023-09-17T11:38:45+00:00"
+    "CreationDate": "2024-05-30T17:14:53+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,19 +14,22 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 40.1447,
-      "Y": 40.1447
+      "X": 19.962,
+      "Y": 40.282
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
-    "Finish": "None"
+    "Finish": "HAL SnPb"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
-      "TrackToTrack": 0.2
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.45,
+      "TrackToRegion": 0.508,
+      "RegionToRegion": 0.508
     }
   ],
   "FilesAttributes": [
@@ -66,11 +69,6 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "GH4PIN01-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "GH4PIN01-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
@@ -82,29 +80,30 @@
       "Name": "Top Silk Screen"
     },
     {
-      "Type": "SolderPaste",
-      "Name": "Top Solder Paste"
-    },
-    {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
