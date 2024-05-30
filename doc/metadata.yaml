@@ -24,9 +24,11 @@ tags:
 - mlab
 - mlab-module
 - kicad
-- kicad-pcb
-- kicad-project
-- mlab-kicad
 - pcb
+- i2c
+- i2c-bus
+- i2c-device
+- i2c-sensors
+- pixhawk
 title: GH4PIN01
-updated: '2024-05-30T12:56:09.493083+00:00'
+updated: '2024-05-30T17:14:14.413641+00:00'
