@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/GH4PIN01.kicad_sch</source>
-    <date>Thu May 30 17:38:12 2024</date>
+    <date>Wed Jun  5 20:25:29 2024</date>
     <tool>Eeschema 7.0.11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -11,7 +11,7 @@
         <rev>A</rev>
         <date>%d. %m. %Y</date>
         <source>GH4PIN01.kicad_sch</source>
-        <comment number="1" value="PixHawk I2C - MLAB interface"/>
+        <comment number="1" value="PixHawk I2C or CAN - MLAB interface"/>
         <comment number="2" value="Alsa-Tucnak"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -200,7 +200,7 @@
       <node ref="J4" pin="1" pintype="input"/>
       <node ref="J5" pin="1" pintype="input"/>
     </net>
-    <net code="2" name="/SCL">
+    <net code="2" name="/SCL{slash}CAN_H">
       <node ref="J1" pin="2" pintype="input"/>
       <node ref="J2" pin="2" pintype="input"/>
       <node ref="J3" pin="3" pintype="input"/>
@@ -208,7 +208,7 @@
       <node ref="J4" pin="2" pintype="input"/>
       <node ref="J5" pin="2" pintype="input"/>
     </net>
-    <net code="3" name="/SDA">
+    <net code="3" name="/SDA{slash}CAN_L">
       <node ref="J1" pin="3" pintype="input"/>
       <node ref="J2" pin="3" pintype="input"/>
       <node ref="J3" pin="7" pintype="input"/>
