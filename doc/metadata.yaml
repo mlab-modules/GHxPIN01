@@ -1,8 +1,8 @@
-description: PixHawk - MLAB interface
+description: PixHawk (JST-GH) - MLAB interface
 github_branch: GH4PIN01A
 github_branches:
 - GH4PIN01A
-github_description: PixHawk - MLAB interface
+github_description: PixHawk (JST-GH) - MLAB interface
 github_repo: GH4PIN01
 github_url: https://github.com/mlab-modules/GH4PIN01
 homepage: false
@@ -30,5 +30,8 @@ tags:
 - i2c-device
 - i2c-sensors
 - pixhawk
+- can
+- jst
+- jst-gh
 title: GH4PIN01
-updated: '2024-05-30T17:38:56.815350+00:00'
+updated: '2024-06-05T20:23:59.959551+00:00'
