@@ -5,7 +5,7 @@ Board size: 19.81x40.13 mm (0.78x1.58 inches)
 - This is the size of the rectangle that contains the board
 - Thickness: 1.6 mm (63 mils)
 - Material: FR4
-- Finish: HAL SnPb
+- Finish: HAL lead-free
 - Layers: 2
 - Copper thickness: 35 µm
 
