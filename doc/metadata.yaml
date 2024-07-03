@@ -19,7 +19,7 @@ issues: 0
 mark: 50
 mod_ibom: hw/cam_profi/GH4PIN01-ibom.html
 mod_scheme: doc/gen/GH4PIN01-schematic.pdf
-status: 1
+status: 2
 tags:
 - mlab
 - mlab-module
