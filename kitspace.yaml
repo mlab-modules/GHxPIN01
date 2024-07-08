@@ -5,4 +5,6 @@ eda:
   type: kicad
 gerbers: hw/cam_profi/
 site: https://github.com/mlab-modules/GH4PIN01
-summary: PixHawk (JST-GH) - MLAB interface
+summary: ' This 4-pin module connects JST-GH connectors, often used in Pixhawk drones,
+  to standard pin headers, making it easier to build custom electronics and use I2C
+  or CAN bus communication.'
