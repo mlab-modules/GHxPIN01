@@ -6,7 +6,7 @@ github_description: PixHawk (JST-GH) - MLAB interface
 github_repo: GH4PIN01
 github_url: https://github.com/mlab-modules/GH4PIN01
 homepage: false
-image_title: doc/gen/img/GH4PIN01-bottom.png
+image_title: doc/src/img/GH4PIN01-small.jpg
 images:
 - doc/src/img/GH4PIN01.jpg
 - doc/src/img/GH4PIN01-small.jpg
