@@ -12,15 +12,15 @@ github_url: https://github.com/mlab-modules/GH4PIN01
 homepage: false
 image_title: doc/src/img/GH4PIN01-small.jpg
 images:
-- doc/src/img/GH4PIN01.jpg
 - doc/src/img/GH4PIN01-small.jpg
-- doc/gen/img/GH4PIN01-top.png
+- doc/src/img/GH4PIN01.jpg
 - doc/gen/img/GH4PIN01-bottom.png
+- doc/gen/img/GH4PIN01-top.png
+- hw/cam_profi/assembly/GH4PIN01-assembly_page_02.svg
+- hw/cam_profi/assembly/GH4PIN01-assembly_page_01.svg
 - doc/gen/GH4PIN01-schematic.svg
 - doc/gen/img/GH4PIN01-top.svg
 - doc/gen/img/GH4PIN01-bottom.svg
-- hw/cam_profi/assembly/GH4PIN01-assembly_page_02.svg
-- hw/cam_profi/assembly/GH4PIN01-assembly_page_01.svg
 issues: 0
 mark: 50
 mod_ibom: hw/cam_profi/GH4PIN01-ibom.html
@@ -41,4 +41,4 @@ tags:
 - jst-gh
 tindie_url: https://www.tindie.com/products/35119/
 title: GH4PIN01
-updated: '2024-07-08T22:36:41.378928+00:00'
+updated: '2024-07-15T01:25:09.017990+00:00'
