@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/GH4PIN01.kicad_sch</source>
-    <date>Thu Jun  6 21:15:49 2024</date>
-    <tool>Eeschema 7.0.11+1</tool>
+    <date>2024-07-16T01:26:13+0000</date>
+    <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>GH4PIN01</title>
@@ -27,28 +27,43 @@
     <comp ref="FID1">
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <fields>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
-      <property name="ki_description" value="Fiducial Marker"/>
       <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0ed746b9-f60f-4060-9d05-e4210bb874e8</tstamps>
     </comp>
     <comp ref="FID2">
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <fields>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
-      <property name="ki_description" value="Fiducial Marker"/>
       <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>173670aa-8fed-401b-a145-2fc678a2cdb6</tstamps>
     </comp>
     <comp ref="J1">
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
@@ -58,6 +73,11 @@
     <comp ref="J2">
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
@@ -67,10 +87,14 @@
     <comp ref="J3">
       <value>HEADER_2x05_PARALLEL</value>
       <footprint>Mlab_Pin_Headers:Straight_2x05</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x05</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_HEADER" part="HEADER_2x05_PARALLEL" description="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
-      <property name="ki_description" value="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="ki_keywords" value="2x05, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7cb9ee9f-7c35-4399-9b7f-6045b91dffcf</tstamps>
@@ -78,6 +102,11 @@
     <comp ref="J4">
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
@@ -87,6 +116,11 @@
     <comp ref="J5">
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
@@ -96,6 +130,11 @@
     <comp ref="M1">
       <value>HOLE M3</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
@@ -105,6 +144,11 @@
     <comp ref="M2">
       <value>HOLE M3</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
@@ -114,6 +158,11 @@
     <comp ref="M3">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
@@ -123,6 +172,11 @@
     <comp ref="M4">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GH4PIN01.kicad_sch"/>
@@ -136,6 +190,8 @@
         <field name="Reference">J</field>
         <field name="Value">SM04B-GHS-TB</field>
         <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
@@ -150,6 +206,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HEADER_2x05_PARALLEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">2x05 2.54 mm pitch header, 2 pins next to each other are connected</field>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
@@ -173,13 +232,18 @@
       <fields>
         <field name="Reference">FID</field>
         <field name="Value">Fiducial</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
       </fields>
     </libpart>
     <libpart lib="mlab-default-rescue" part="HOLE">
       <fields>
         <field name="Reference">M</field>
         <field name="Value">HOLE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
