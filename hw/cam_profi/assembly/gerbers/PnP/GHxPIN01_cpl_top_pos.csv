@@ -1,0 +1,7 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"J6","SM10B-GHS-TB","JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal",22.4500,25.3950,90.0000,top
+"J7","HEADER_2x10_PARALLEL","PinHeader_2x10_P2.54mm_Vertical",16.3200,13.9700,180.0000,top
+"M1","HOLE M3","MountingHole_3mm",10.1600,40.6400,0.0000,top
+"M2","HOLE M3","MountingHole_3mm",20.3200,40.6400,0.0000,top
+"M3","HOLE","MountingHole_3mm",10.1600,10.1600,0.0000,top
+"M4","HOLE","MountingHole_3mm",20.3200,10.1600,0.0000,top

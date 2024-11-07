@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/GHxPIN01.kicad_sch</source>
+    <date>2024-11-07T23:04:38+0000</date>
+    <tool>Eeschema 8.0.6+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>GH4PIN01</title>
+        <company>Mlab www.mlab.cz</company>
+        <rev>A</rev>
+        <date>%d. %m. %Y</date>
+        <source>GHxPIN01.kicad_sch</source>
+        <comment number="1" value="PixHawk I2C or CAN - MLAB interface"/>
+        <comment number="2" value="Alsa-Tucnak"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <fields>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GHxPIN01.kicad_sch"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ed746b9-f60f-4060-9d05-e4210bb874e8</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <fields>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GHxPIN01.kicad_sch"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>173670aa-8fed-401b-a145-2fc678a2cdb6</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>SM10B-GHS-TB</value>
+      <footprint>Connector_JST:JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal</footprint>
+      <description>Zásuvka; kabel-pl.spoj; vidlice; GH; 1,25mm; PIN: 10; SMT; 50V; 1A</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Zásuvka; kabel-pl.spoj; vidlice; GH; 1,25mm; PIN: 10; SMT; 50V; 1A</field>
+      </fields>
+      <libsource lib="MLAB_CONNECTORS_JST" part="SM10B-GHS-TB" description="Zásuvka; kabel-pl.spoj; vidlice; GH; 1,25mm; PIN: 10; SMT; 50V; 1A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GHxPIN01.kicad_sch"/>
+      <property name="ki_keywords" value="Zásuvka; kabel-pl.spoj; vidlice; GH; 1,25mm; PIN: 10; SMT; 50V; 1A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f13627cf-664d-4716-996b-da10ad75de58</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>HEADER_2x10_PARALLEL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</footprint>
+      <description>2x10 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">2x10 2.54 mm pitch header, 2 pins next to each other are connected</field>
+      </fields>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x10_PARALLEL" description="2x10 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GHxPIN01.kicad_sch"/>
+      <property name="ki_keywords" value="2x10, header, connector, pinheader"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f921ec16-f23d-4b70-8755-77dea252b991</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>HOLE M3</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GHxPIN01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7549</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>HOLE M3</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GHxPIN01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7628</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GHxPIN01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7646</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GHxPIN01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7665</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MLAB_CONNECTORS_JST" part="SM10B-GHS-TB">
+      <description>Zásuvka; kabel-pl.spoj; vidlice; GH; 1,25mm; PIN: 10; SMT; 50V; 1A</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SM10B-GHS-TB</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM06B-GHS-TB_1x10-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Zásuvka; kabel-pl.spoj; vidlice; GH; 1,25mm; PIN: 10; SMT; 50V; 1A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="input"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="MP" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x10_PARALLEL">
+      <description>2x10 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x10_PARALLEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">2x10 2.54 mm pitch header, 2 pins next to each other are connected</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="input"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="" type="input"/>
+        <pin num="15" name="" type="input"/>
+        <pin num="16" name="" type="input"/>
+        <pin num="17" name="" type="input"/>
+        <pin num="18" name="" type="input"/>
+        <pin num="19" name="" type="input"/>
+        <pin num="20" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+    </libpart>
+    <libpart lib="mlab-default-rescue" part="HOLE">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">HOLE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J6" pin="MP" pintype="input"/>
+      <node ref="M1" pin="1" pintype="input"/>
+      <node ref="M2" pin="1" pintype="input"/>
+      <node ref="M3" pin="1" pintype="input"/>
+      <node ref="M4" pin="1" pintype="input"/>
+    </net>
+    <net code="2" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1" pintype="input"/>
+      <node ref="J7" pin="1" pintype="input"/>
+      <node ref="J7" pin="2" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2" pintype="input"/>
+      <node ref="J7" pin="3" pintype="input"/>
+      <node ref="J7" pin="4" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3" pintype="input"/>
+      <node ref="J7" pin="5" pintype="input"/>
+      <node ref="J7" pin="6" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4" pintype="input"/>
+      <node ref="J7" pin="7" pintype="input"/>
+      <node ref="J7" pin="8" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(J6-Pad5)">
+      <node ref="J6" pin="5" pintype="input"/>
+      <node ref="J7" pin="10" pintype="input"/>
+      <node ref="J7" pin="9" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(J6-Pad6)">
+      <node ref="J6" pin="6" pintype="input"/>
+      <node ref="J7" pin="11" pintype="input"/>
+      <node ref="J7" pin="12" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(J6-Pad7)">
+      <node ref="J6" pin="7" pintype="input"/>
+      <node ref="J7" pin="13" pintype="input"/>
+      <node ref="J7" pin="14" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(J6-Pad8)">
+      <node ref="J6" pin="8" pintype="input"/>
+      <node ref="J7" pin="15" pintype="input"/>
+      <node ref="J7" pin="16" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(J6-Pad9)">
+      <node ref="J6" pin="9" pintype="input"/>
+      <node ref="J7" pin="17" pintype="input"/>
+      <node ref="J7" pin="18" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(J6-Pad10)">
+      <node ref="J6" pin="10" pintype="input"/>
+      <node ref="J7" pin="19" pintype="input"/>
+      <node ref="J7" pin="20" pintype="input"/>
+    </net>
+  </nets>
+</export>
