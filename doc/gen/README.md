@@ -20,16 +20,16 @@ Silk screen: TOP / BOTTOM
 
 Stackup:
 
-| Name                 | Type                 | Color            | Thickness | Material        | Epsilon_r | Loss tangent |
-|----------------------|----------------------|------------------|-----------|-----------------|-----------|--------------|
-| F.SilkS              | Top Silk Screen      |                  |           |                 |           |              |
-| F.Mask               | Top Solder Mask      |                  |        10 |                 |           |              |
-| F.Cu                 | copper               |                  |        35 |                 |           |              |
-| dielectric 1         | core                 |                  |      1510 | FR4             |       4.5 |        0.020 |
-| B.Cu                 | copper               |                  |        35 |                 |           |              |
-| B.Mask               | Bottom Solder Mask   |                  |        10 |                 |           |              |
-| B.Paste              | Bottom Solder Paste  |                  |           |                 |           |              |
-| B.SilkS              | Bottom Silk Screen   |                  |           |                 |           |              |
+| Name                 | Type                 | Color            | Thickness [µm]| Material        | Er        | Loss tan     |
+|----------------------|----------------------|------------------|---------------|-----------------|-----------|--------------|
+| F.SilkS              | Top Silk Screen      |                  |               |                 |           |              |
+| F.Mask               | Top Solder Mask      |                  |            10 |                 |           |              |
+| F.Cu                 | copper               |                  |            35 |                 |           |              |
+| dielectric 1         | core                 |                  |          1510 | FR4             |       4.5 |        0.020 |
+| B.Cu                 | copper               |                  |            35 |                 |           |              |
+| B.Mask               | Bottom Solder Mask   |                  |            10 |                 |           |              |
+| B.Paste              | Bottom Solder Paste  |                  |               |                 |           |              |
+| B.SilkS              | Bottom Silk Screen   |                  |               |                 |           |              |
 
 # Important sizes
 
@@ -39,33 +39,33 @@ Track width: 0.45 mm (18 mils)
 
 - By design rules: 0.2 mm (8 mils)
 
-Drill: 0.5 mm (20 mils)
+Drill: 1.1 mm (43 mils)
 
-- Vias: 0.5 mm (20 mils) [Design: 0.4 mm (16 mils)]
-- Pads: 1.0 mm (39 mils)
+- Vias: N/A mm (N/A mils) [Design: 0.4 mm (16 mils)]
+- Pads: 1.1 mm (43 mils)
 - The above values are real drill sizes, they add 0.1 mm (4 mils) to plated holes (PTH)
 
-Via: 0.8/0.4 mm (31/16 mils)
+Via: N/A/N/A mm (N/A/N/A mils)
 
 - By design rules: 0.8/0.3 mm (31/12 mils)
 - Micro via: yes [0.2/0.1 mm (8/4 mils)]
 - Buried/blind via: yes
-- Total: 23 (thru: 23 buried/blind: 0 micro: 0)
+- Total: 0 (thru: 0 buried/blind: 0 micro: 0)
 
-Outer Annular Ring: 0.15 mm (6 mils)
+Outer Annular Ring: 0.3 mm (12 mils)
 
-- By design rules: 0.26 mm (10 mils)
+- By design rules: 0.3 mm (12 mils)
 
-Eurocircuits class: 4B
-- Using min drill 0.5 mm for an OAR of 0.15 mm
+Eurocircuits class: 4A
+- Using min drill 1.1 mm for an OAR of 0.3 mm
 
 
 # General stats
 
 Components count: (SMD/THT)
 
-- Top: 0/5 (THT)
-- Bottom: 6/0 (SMD)
+- Top: 1/5 (SMD + THT)
+- Bottom: 2/0 (SMD)
 
 Defined tracks:
 
@@ -79,19 +79,17 @@ Defined tracks:
 
 Used tracks:
 
-- 0.45 mm (18 mils) (60) defined: no
-- 0.7 mm (28 mils) (8) defined: yes
+- 0.45 mm (18 mils) (37) defined: no
 
 Defined vias:
 
 
 Used vias:
 
-- 0.8/0.4 mm (31/16 mils) (Count: 23, Aspect: 2.0 A) defined: no
 
 Holes (excluding vias):
 
-- 0.89 mm (35 mils) (10)
+- 1.0 mm (39 mils) (20)
 - 3.0 mm (118 mils) (4)
 
 Oval holes:
@@ -99,8 +97,7 @@ Oval holes:
 
 Drill tools (including vias and computing adjusts and rounding):
 
-- 0.5 mm (20 mils) (23)
-- 1.0 mm (39 mils) (10)
+- 1.1 mm (43 mils) (20)
 - 3.1 mm (122 mils) (4)
 
 Solder paste stats:
@@ -112,7 +109,7 @@ The stencil thickness is  0.12 mm.
 
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
-| Total  |              24 |      37.11 |      0.18 |
+| Total  |              12 |      15.27 |      0.08 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
