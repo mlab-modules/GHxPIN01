@@ -1601,6 +1601,26 @@
 			(uuid "5b0eb2eb-6b44-4b5e-a67d-bfc067b43102")
 		)
 	)
+	(gr_line
+		(start 156.649999 111.07)
+		(end 157.259999 110.11)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "07720e8a-1fd0-42a2-bcad-7dab8fee2e24")
+	)
+	(gr_line
+		(start 155.939999 110.13)
+		(end 156.649999 111.07)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fc91ef29-c281-4b47-8d93-4fc28c803e9f")
+	)
 	(gr_rect
 		(start 155.659999 97.105)
 		(end 158.239999 108.795)
@@ -1710,12 +1730,12 @@
 		)
 	)
 	(gr_text "1 2 3 4 5 6 7 8 9 10"
-		(at 152.809999 111.19 90)
+		(at 152.809999 111.24 90)
 		(layer "F.SilkS")
 		(uuid "ba908957-8dae-4563-99fd-a9d7a006b9c9")
 		(effects
 			(font
-				(size 0.8 0.75)
+				(size 0.9 0.75)
 				(thickness 0.15)
 			)
 			(justify left bottom)
