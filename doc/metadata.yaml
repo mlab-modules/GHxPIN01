@@ -1,44 +1,30 @@
-description: ' This 4-pin module connects JST-GH connectors, often used in Pixhawk
-  drones, to standard pin headers, making it easier to build custom electronics and
-  use I2C or CAN bus communication.'
-github_branch: GH4PIN01A
+description: ' This 2-10 pin module connects JST-GH connectors, often used in Pixhawk
+  drones, to standard pin headers.'
+github_branch: GHxPIN01A
 github_branches:
 - GH4PIN01A
-github_description: ' This 4-pin module connects JST-GH connectors, often used in
-  Pixhawk drones, to standard pin headers, making it easier to build custom electronics
-  and use I2C or CAN bus communication.'
-github_repo: GH4PIN01
-github_url: https://github.com/mlab-modules/GH4PIN01
+github_description: ' This 2-10 pin module connects JST-GH connectors, often used
+  in Pixhawk drones, to standard pin headers.'
+github_repo: GHxPIN01
+github_url: https://github.com/mlab-modules/GHxPIN01
 homepage: false
 image_title: doc/src/img/GH4PIN01-small.jpg
 images:
-- doc/src/img/GH4PIN01-small.jpg
 - doc/src/img/GH4PIN01.jpg
-- doc/gen/img/GH4PIN01-bottom.png
-- doc/gen/img/GH4PIN01-top.png
-- hw/cam_profi/assembly/GH4PIN01-assembly_page_02.svg
-- hw/cam_profi/assembly/GH4PIN01-assembly_page_01.svg
-- doc/gen/GH4PIN01-schematic.svg
-- doc/gen/img/GH4PIN01-top.svg
-- doc/gen/img/GH4PIN01-bottom.svg
+- doc/src/img/GH4PIN01-small.jpg
+- doc/gen/img/GHxPIN01-bottom.png
+- doc/gen/img/GHxPIN01-top.png
+- doc/gen/GHxPIN01-schematic.svg
+- doc/gen/img/GHxPIN01-top.svg
+- doc/gen/img/GHxPIN01-bottom.svg
+- hw/cam_profi/assembly/GHxPIN01-assembly_page_02.svg
+- hw/cam_profi/assembly/GHxPIN01-assembly_page_01.svg
 issues: 0
 mark: 50
-mod_ibom: hw/cam_profi/GH4PIN01-ibom.html
-mod_scheme: doc/gen/GH4PIN01-schematic.pdf
+mod_ibom: hw/cam_profi/GHxPIN01-ibom.html
+mod_scheme: doc/gen/GHxPIN01-schematic.pdf
 status: 2
-tags:
-- mlab
-- mlab-module
-- kicad
-- pcb
-- i2c
-- i2c-bus
-- i2c-device
-- i2c-sensors
-- pixhawk
-- can
-- jst
-- jst-gh
+tags: []
 tindie_url: https://www.tindie.com/products/35119/
-title: GH4PIN01
-updated: '2024-07-16T01:26:52.433301+00:00'
+title: GHxPIN01
+updated: '2024-11-07T23:05:18.026808+00:00'
