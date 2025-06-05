@@ -10,13 +10,13 @@ github_url: https://github.com/mlab-modules/GHxPIN01
 homepage: false
 image_title: doc/src/img/GH4PIN01-small.jpg
 images:
-- doc/src/img/GH4PIN01.jpg
-- doc/src/img/GH4PIN01-small.jpg
+- doc/src/img/GHxPIN01_side.jpg
+- doc/src/img/GHxPIN01_top.jpg
 - doc/gen/img/GHxPIN01-bottom.png
 - doc/gen/img/GHxPIN01-top.png
 - doc/gen/GHxPIN01-schematic.svg
-- doc/gen/img/GHxPIN01-top.svg
 - doc/gen/img/GHxPIN01-bottom.svg
+- doc/gen/img/GHxPIN01-top.svg
 - hw/cam_profi/assembly/GHxPIN01-assembly_page_02.svg
 - hw/cam_profi/assembly/GHxPIN01-assembly_page_01.svg
 issues: 0
@@ -27,4 +27,4 @@ status: 2
 tags: []
 tindie_url: https://www.tindie.com/products/35119/
 title: GHxPIN01
-updated: '2024-11-07T23:09:32.601493+00:00'
+updated: '2025-06-05T21:50:02.591829+00:00'
