@@ -2,13 +2,12 @@ description: ' This 2-10 pin module connects JST-GH connectors, often used in Pi
   drones, to standard pin headers.'
 github_branch: GHxPIN01A
 github_branches:
-- GH4PIN01A
 github_description: ' This 2-10 pin module connects JST-GH connectors, often used
   in Pixhawk drones, to standard pin headers.'
 github_repo: GHxPIN01
 github_url: https://github.com/mlab-modules/GHxPIN01
 homepage: false
-image_title: doc/src/img/GH4PIN01-small.jpg
+image_title: doc/src/img/GHxPIN01_top.jpg
 images:
 - doc/src/img/GHxPIN01_side.jpg
 - doc/src/img/GHxPIN01_top.jpg
@@ -20,7 +19,7 @@ images:
 - hw/cam_profi/assembly/GHxPIN01-assembly_page_02.svg
 - hw/cam_profi/assembly/GHxPIN01-assembly_page_01.svg
 issues: 0
-mark: 50
+mark: 20
 mod_ibom: hw/cam_profi/GHxPIN01-ibom.html
 mod_scheme: doc/gen/GHxPIN01-schematic.pdf
 status: 2
